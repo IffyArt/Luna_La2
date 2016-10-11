@@ -1,0 +1,21 @@
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background: url(../images/BackgroundBody.jpg) no-repeat,url(../images/mainBg.jpg) repeat;
+	background-position: center top;
+	background-size: cover;
+	font-family: "微軟正黑體";
+}
+img{
+	border: none;
+}
+#WebMain{
+	max-width:1024px;
+	margin:auto;
+}
+a{
+	text-decoration:none;
+}

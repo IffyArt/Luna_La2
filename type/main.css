@@ -1,0 +1,130 @@
+@charset "utf-8";
+.Main{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	padding-top: 2em;
+}
+.DetailBox{
+	text-align: center;
+	text-decoration: none;
+	transition: 1s;
+	color: #000000;
+}
+.DetaiText{
+	line-height:1.8em;
+	z-index:100;
+	text-decoration:none;
+}
+.DetaiText h2{
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	border-bottom-color: #930;
+	margin:0.5em;
+	margin-left:1.5em;
+	margin-right:1.5em;
+	padding-bottom:0.5em;
+}
+.DetailBox:hover img{
+	transform:rotate(335deg);
+	z-index:99;
+}
+.DetailImg{
+	margin-bottom:1em;
+}
+.DetailImg img{
+	width:75%;
+	transition:0.5s;
+}
+.DescriptionBox h2{
+	width:50%;
+	margin-left:25%;
+	color: #775f53;
+	text-align:center;	
+	font-family: "華康文徵明體W4";
+}
+.DescriptionBox hr{
+	background-color: #775f53;
+	border-top-color: #775f53;
+	border-right-color: #775f53;
+	border-bottom-color: #775f53;
+	border-left-color: #775f53;
+}
+.DescriptionBox{
+	line-height:2em;
+}
+.DescriptionBox p{
+	text-indent:-2em;
+	margin-left:2em;
+}
+.InformationBox hr{
+	background-color: #775f53;
+	border-top-color: #775f53;
+	border-right-color: #775f53;
+	border-bottom-color: #775f53;
+	border-left-color: #775f53;
+}
+.InformationBox h2{
+	width:50%;
+	margin-left:25%;
+	color: #775f53;
+	text-align:center;	
+	font-family: "華康文徵明體W4";
+	text-align:center;
+}
+.AboutBox{
+	width: 23.5%;
+	float: left;
+	margin-left: 1px;
+	text-align: center;
+	border: thin solid #775F53;
+	margin-top: 2.45%;
+	margin-right: 1%;
+	margin-bottom: 2.45%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	line-height: 2em;
+	transition:0.5s;
+	border-radius: 1em;
+}
+.AboutBox:hover{	
+	box-shadow: 0px 0px 2px 2px #CCC;
+}
+.AboutBox img{
+	margin-bottom:1em;
+	width:50%;
+}
+.pImg{
+	border-radius:5em;
+}
+.pbox{
+	border-radius:10px;
+	width:90%;
+	margin:5%;
+	transition:0.5s;
+}
+.pbox:hover p{
+	background:#ffffff;
+	color:#000000;
+	opacity:0.9;
+}
+.pbox p{
+	background:#000;
+	margin-top:-7em;
+	color:#FFF;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align:center;
+	opacity:0.8;
+	transition:0.5s;
+}
+@media (max-width: 786px) {
+.AboutBox{
+	width:46%;
+	float:left;
+	margin-left:1%;
+	text-align:center;
+}
+
+}

@@ -1,0 +1,149 @@
+@charset "utf-8";
+.HeaderTop{
+	display:block;
+	position:relative;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.buttomBox ul li{
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:14%;
+}
+.TextBt{
+	padding-top:20px;
+	padding-bottom: 5px;
+	transition:1s;
+}
+.TextBt:hover{
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.buttomBox ul li a{
+	display: block;
+	text-decoration: none;
+	height: 65px;
+	color: #775f53;
+	padding-top: 15px;
+	font-size: 1.4em;
+	line-height: 1em;
+	transition: 0.5s;
+	font-family: "華康文徵明體W4";
+	font-weight: bold;
+}
+.buttomBox ul li a hr{
+	transition: 0.5s;
+	width: 0px;
+	margin-left: 10%;
+	background-color: #775f53;
+	border-top-color: #775F53;
+	border-right-color: #775F53;
+	border-bottom-color: #775F53;
+	border-left-color: #775F53;
+	opacity:0;
+	margin-top:0.2em;
+}
+.buttomBox ul li:hover a hr{
+	width:80%;
+	opacity:1;
+}
+.Ebuttom{
+	margin-top:0.3em;
+	font-family:"monotype corsiva";
+}
+@font-face {
+	font-family:"monotype corsiva";
+    src:url(../font/MTCORSVA.TTF);
+}@font-face {
+    font-family:"華康文徵明體W4";
+    src:url(../font/DFT_WZ4.ttc);
+}
+.custom-wrapper {
+    margin-bottom: 1em;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.custom-wrapper.open {
+    height: 40em;
+}
+
+.custom-menu-3 {
+    text-align: right;
+}
+
+.custom-toggle {
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.custom-toggle .bar {
+    background-color: #777;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 18px;
+    right: 7px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.custom-brand{
+	display:none;
+}
+@media (max-width: 786px) {
+
+.custom-menu-3 {
+	text-align: left;
+}
+.custom-toggle {
+	display: block;
+}
+.custom-brand{
+	display:block;
+}
+.logoButtom{
+	display:none !important;
+}
+.buttomBox ul li{
+	width:100%;
+}
+.custom-wrapper {
+	height:1em;
+}
+}
