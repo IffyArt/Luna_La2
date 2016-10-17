@@ -119,6 +119,28 @@
 	opacity:0.8;
 	transition:0.5s;
 }
+.PdfLink{
+	margin-left:0em !important;
+	text-indent: -0em !important;
+}
+.PdfLink a{
+	display: block;
+	position: relative;
+	float: left;
+	text-align: center;
+	width: auto;
+	margin-right: 1em;
+	padding: 5%;
+	background-color: #FFFFFF;
+	color: #775F53;
+	border-radius: 0px 0px 2em 2em;
+	box-shadow: 0px 0px 8px #CCC;
+	background:url(../images/background.jpg);
+	transition:0.5s;
+}
+.PdfLink a:hover{
+	box-shadow: 2px 2px 0.5px #CCC;
+}
 @media (max-width: 786px) {
 .AboutBox{
 	width:46%;

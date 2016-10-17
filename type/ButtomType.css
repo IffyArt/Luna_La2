@@ -11,6 +11,7 @@
 	float:left;
 	display:block;
 	width:14%;
+	margin-right:7%;
 }
 .TextBt{
 	padding-top:20px;
@@ -71,7 +72,7 @@
 }
 
 .custom-wrapper.open {
-    height: 40em;
+    height:30em;
 }
 
 .custom-menu-3 {
